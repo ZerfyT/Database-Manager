@@ -1,0 +1,23 @@
+<component name="ArtifactManager">
+  <artifact type="javafx" name="DatabaseManager">
+    <output-path>$PROJECT_DIR$/out/artifacts/DatabaseManager</output-path>
+    <properties id="javafx-properties">
+      <options>
+        <option name="appClass" value="sample.Main" />
+        <option name="description" value="" />
+        <option name="height" value="600" />
+        <option name="htmlPlaceholderId" value="" />
+        <option name="nativeBundle" value="exe" />
+        <option name="title" value="Database Manager" />
+        <option name="vendor" value="" />
+        <option name="version" value="1" />
+        <option name="width" value="800" />
+      </options>
+    </properties>
+    <root id="root">
+      <element id="archive" name="DatabaseManager.jar">
+        <element id="module-output" name="DatabaseManager" />
+      </element>
+    </root>
+  </artifact>
+</component>
