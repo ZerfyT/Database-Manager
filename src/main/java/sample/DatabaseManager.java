@@ -144,25 +144,6 @@ public class DatabaseManager {
     }
 
     /*
-        Delete Table but only data
-     */
-    public void deleteTableData(String db, String tb) {
-        String sql = "DELETE FROM `" + db + "`.`" + tb + "`";
-        execute(sql);
-        System.out.println("All Data Deleted.");
-    }
-
-    /*
-        Delete Table
-     */
-    public void deleteTable(String db, String tb) {
-        String sql = "DROP TABLE `" + db + "`.`" + tb + "`";
-        execute(sql);
-        System.out.println("Table Deleted.");
-    }
-
-
-    /*
         View Full Table Window
      */
     public void viewTable(String db, String tb) {

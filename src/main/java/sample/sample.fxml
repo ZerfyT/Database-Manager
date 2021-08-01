@@ -73,9 +73,9 @@
                     <Button fx:id="bt_tb_delete_sel_col" layoutX="343.0" layoutY="164.0" mnemonicParsing="false" onAction="#onDeleteTbColumn" text="Delete Selected Column" />
                 </AnchorPane>
                 <AnchorPane minWidth="-Infinity">
-                    <Button fx:id="bt_tb_delete_data" layoutY="36.0" mnemonicParsing="false" text="Delete only Data" onAction="#onDeleteData" />
+                    <Button fx:id="bt_tb_delete_data" layoutY="36.0" mnemonicParsing="false" text="Delete only Data" />
                     <Label layoutY="14.0" text="Delete Selected Table" />
-                    <Button fx:id="bt_tb_delete_all" layoutY="74.0" mnemonicParsing="false" text="Delete Whole Table" onAction="#onDeleteTable" />
+                    <Button fx:id="bt_tb_delete_all" layoutY="74.0" mnemonicParsing="false" text="Delete Whole Table" />
                 </AnchorPane>
             </HBox>
         </Tab>

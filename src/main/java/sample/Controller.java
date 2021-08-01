@@ -252,16 +252,6 @@ public class Controller {
         showLog("Table Created.");
     }
 
-    @FXML
-    public void onDeleteData() {
-        dbm.deleteTableData(current_db, current_tb);
-    }
-
-    @FXML
-    public void onDeleteTable() {
-        dbm.deleteTable(current_db, current_tb);
-    }
-
     /*
         Check Which Data Type Required
      */
